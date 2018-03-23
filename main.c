@@ -32,9 +32,9 @@ Image espelhamento(Image img);
 
 int main() {
     Image img;
-    int n_opcoes;
-    
     img = leia_imagem();
+
+    int n_opcoes;
     scanf("%d", &n_opcoes);
 
     for(int i = 0; i < n_opcoes; ++i) 
